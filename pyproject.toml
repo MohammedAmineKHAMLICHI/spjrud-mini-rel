@@ -1,0 +1,14 @@
+[project]
+name = "minirel"
+version = "0.1.0"
+description = "Mini relational algebra engine with SPJRUD/SQF parsing"
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed Amine KHAMLICHI" }]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
